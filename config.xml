@@ -2,14 +2,14 @@
 <widget id="itd" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ITDoctor App</name>
     <description>
-        Это тестовое приложение созданное с помощью phonegap!
+        Это тестовое приложение созданное с помощью phonegap! Для Android 2.x
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         ITDoctor
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="7" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
     <plugin name="cordova-plugin-splashscreen" source="npm" />  
     <preference name="SplashScreenDelay" value="3000" />  
